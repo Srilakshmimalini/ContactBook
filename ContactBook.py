@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-class ContactBook:
+class ContactBooks:
     def __init__(self, root):
         self.root = root
         self.root.title("Contact Book")
