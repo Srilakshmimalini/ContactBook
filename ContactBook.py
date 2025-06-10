@@ -22,7 +22,7 @@ class ContactBook:
         input_frame.pack(fill="x", pady=20)
 
         # Name Input
-        self.name_label = tk.Label(input_frame, text="Name:", font=("Arial", 14), bg="#34495e", fg="white")
+        self.name_label = tk.Label(input_frame, text="Name :", font=("Arial", 14), bg="#34495e", fg="white")
         self.name_label.grid(row=0, column=0, sticky="e", pady=5)
         self.name_entry = tk.Entry(input_frame, font=("Arial", 14), width=30)
         self.name_entry.grid(row=0, column=1, padx=10, pady=5)
