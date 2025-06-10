@@ -14,7 +14,7 @@ class ContactBook:
         title_frame = tk.Frame(root, bg="#2980b9", pady=20)
         title_frame.pack(fill="x")
 
-        title_label = tk.Label(title_frame, text="Contact Book", font=("Helvetica", 24, "bold"), fg="white", bg="#2980b9")
+        title_label = tk.Label(title_frame, text="ContactBook", font=("Helvetica", 24, "bold"), fg="white", bg="#2980b9")
         title_label.pack()
 
         # Input Frame
