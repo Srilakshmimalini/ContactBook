@@ -11,7 +11,7 @@ class ContactBooks:
         self.contacts = {}
 
         # Title Frame
-        title_frame = tk.Frame(root, bg="#2980b9", pady=20)
+        title_frame = tk.Frame(root, bg="#fffff", pady=20)
         title_frame.pack(fill="x")
 
         title_label = tk.Label(title_frame, text="ContactBook", font=("Helvetica", 24, "bold"), fg="white", bg="#2980b9")
